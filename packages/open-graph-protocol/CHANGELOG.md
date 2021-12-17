@@ -1,5 +1,35 @@
 # @suddenlyGiovanni/open-graph-protocol
 
+## 0.2.0
+
+### Minor Changes
+
+- [`bac8677`](https://github.com/suddenlyGiovanni/seo-utilities/commit/bac8677e5972f40af6c7c70fc8f1311538ccba00) Thanks [@suddenlyGiovanni](https://github.com/suddenlyGiovanni)! - [//]: # (WHAT the change is)
+  [//]: # (WHY the change was made)
+  [//]: # (HOW a consumer should update their code)
+
+  ## WHAT the change is?
+
+  Rename the package name scope from `@suddenlyGiovanni/...` to `@suddenlygiovanni`
+
+  ## WHY the change was made?
+
+  To comply with `npm` and `GitHub Packages` specifications.
+  GitHub Packages will equally match the package name scope to the repo owner (even if the char chases do not match)!
+
+  ## HOW a consumer should update their code?
+
+  BREAKING CHANGE: all consumer need to import the package as:
+
+  - `@suddenlygiovanni/open-graph-protocol`
+  - `@suddenlygiovanni/open-graph-protocol-utils`
+  - `@suddenlygiovanni/open-graph-protocol-react`
+
+### Patch Changes
+
+- Updated dependencies [[`bac8677`](https://github.com/suddenlyGiovanni/seo-utilities/commit/bac8677e5972f40af6c7c70fc8f1311538ccba00)]:
+  - @suddenlygiovanni/open-graph-protocol-utils@0.2.0
+
 ## 0.1.0
 
 ### Minor Changes
