@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@changesets/changelog-github': 0.4.2
+      '@changesets/changelog-github': 0.4.8
       '@changesets/cli': 2.18.1
       '@commitlint/cli': 15.0.0
       '@commitlint/config-conventional': 15.0.0
@@ -16,7 +16,7 @@ importers:
       typescript: 4.5.4
       verdaccio: 5.3.2
     devDependencies:
-      '@changesets/changelog-github': 0.4.2
+      '@changesets/changelog-github': 0.4.8
       '@changesets/cli': 2.18.1
       '@commitlint/cli': 15.0.0
       '@commitlint/config-conventional': 15.0.0
@@ -50,7 +50,7 @@ importers:
       '@suddenlygiovanni/open-graph-protocol': link:../open-graph-protocol
     devDependencies:
       '@types/react': 17.0.37
-      '@typescript/lib-dom': /@types/web/0.0.48
+      '@typescript/lib-dom': /@types/web/0.0.98
       react: 17.0.2
       typescript: 4.5.4
 
@@ -119,11 +119,11 @@ packages:
       semver: 5.7.1
     dev: true
 
-  /@changesets/changelog-github/0.4.2:
-    resolution: {integrity: sha512-qq8lJcq91ki7UT0fIfIcn5Yy7GJj19TmkLmGZ24/wEfxcD/nHHoTNRoi6nPt+Htf7qEudKxXLzQLi41B7Mt2vg==}
+  /@changesets/changelog-github/0.4.8:
+    resolution: {integrity: sha512-jR1DHibkMAb5v/8ym77E4AMNWZKB5NPzw5a5Wtqm1JepAuIF+hrKp2u04NKM14oBZhHglkCfrla9uq8ORnK/dw==}
     dependencies:
-      '@changesets/get-github-info': 0.5.0
-      '@changesets/types': 4.0.2
+      '@changesets/get-github-info': 0.5.2
+      '@changesets/types': 5.2.1
       dotenv: 8.6.0
     dev: true
 
@@ -191,8 +191,8 @@ packages:
       semver: 5.7.1
     dev: true
 
-  /@changesets/get-github-info/0.5.0:
-    resolution: {integrity: sha512-vm5VgHwrxkMkUjFyn3UVNKLbDp9YMHd3vMf1IyJoa/7B+6VpqmtAaXyDS0zBLfN5bhzVCHrRnj4GcZXXcqrFTw==}
+  /@changesets/get-github-info/0.5.2:
+    resolution: {integrity: sha512-JppheLu7S114aEs157fOZDjFqUDpm7eHdq5E8SSR0gUBTEK0cNSHsrSR5a66xs0z3RWuo46QvA3vawp8BxDHvg==}
     dependencies:
       dataloader: 1.4.0
       node-fetch: 2.6.6
@@ -263,6 +263,10 @@ packages:
 
   /@changesets/types/4.0.2:
     resolution: {integrity: sha512-OeDaB7D+WVy/ErymPzFm58IeGvz4DOl+oedyZETfnkfMezF/Uhrm1Ub6MHrO5LcAaQTW+ptDmr0fmaVyoTxgHw==}
+    dev: true
+
+  /@changesets/types/5.2.1:
+    resolution: {integrity: sha512-myLfHbVOqaq9UtUKqR/nZA/OY7xFjQMdfgfqeZIBK4d0hA6pgxArvdv8M+6NUzzBsjWLOtvApv8YHr4qM+Kpfg==}
     dev: true
 
   /@changesets/write/0.1.6:
@@ -598,8 +602,8 @@ packages:
     resolution: {integrity: sha512-KQf+QAMWKMrtBMsB8/24w53tEsxllMj6TuA80TT/5igJalLI/zm0L3oXRbIAl4Ohfc85gyHX/jhMwsVkmhLU4A==}
     dev: true
 
-  /@types/web/0.0.48:
-    resolution: {integrity: sha512-X5KKfR0MNm5ujo7421tVTF6n9MXh58DfWOuvPnuMAlr12vloTtyxJEC0rHVKIvcpqqoOJSrlkW2dMJjl9eK3Dg==}
+  /@types/web/0.0.98:
+    resolution: {integrity: sha512-eMNFFQU9QrwE9ycYlXD3NzZN0caL8WWIgafGPnNDpLM8LsiZukDr7loummc6cnT9LyPKNZLLSSPdSDhnO7ZfEA==}
     dev: true
 
   /@verdaccio/commons-api/10.0.2:
@@ -3597,11 +3601,11 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
   /tr46/1.0.1:
-    resolution: {integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=}
+    resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
     dependencies:
       punycode: 2.1.1
     dev: true
@@ -3887,7 +3891,7 @@ packages:
     dev: true
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: true
 
   /webidl-conversions/4.0.2:
@@ -3905,7 +3909,7 @@ packages:
     dev: true
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
